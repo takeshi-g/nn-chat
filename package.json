@@ -1,0 +1,12 @@
+{
+  "name": "nn-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:takeshi-g/nn-chat.git",
+  "author": "takeshi-g <tksh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-auth": "^4.2.0",
+    "pug": "^3.0.2"
+  }
+}
