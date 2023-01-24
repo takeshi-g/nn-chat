@@ -9,7 +9,7 @@
   "author": "takeshi-g <tksh@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "http-auth": "^4.2.0",
+    "http-auth": "4.1.9",
     "nodemon": "^2.0.20",
     "pug": "3.0.2"
   },
