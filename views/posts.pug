@@ -31,7 +31,7 @@ html(lang="ja")
         .card-body 
           b 投稿者: #{post.postedBy}
           small.float-right #{post.formattedCreatedAt}
-          p!=post.content
+          p.card-text(style="white-space:pre;overflow:auto;") #{post.content}
 
       hr
     script(src="https://code.jquery.com/jquery-3.4.1.slim.min.js")
