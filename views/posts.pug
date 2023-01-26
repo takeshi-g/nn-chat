@@ -16,7 +16,7 @@ html(lang="ja")
       p 送信日時: #{post.createdAt} 
       p 投稿内容: #{post.content}
       p 投稿者: #{post.postedBy}
-      - let isDeletable = (user === post.potedBy)
+      - let isDeletable = (user === post.postedBy)
       if isDeletable 
         form(method="post" action="/posts/delete")
           input(type="hidden", name="id" value=post.id)
